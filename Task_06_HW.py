@@ -17,6 +17,6 @@ num_4 = ticket // 100 % 10
 num_5 = ticket // 10 % 10
 num_6 = ticket % 10
 if (num_1 + num_2 + num_3) == (num_4 + num_5 + num_6):
-    print(f'{ticket} -> "yes"')
+    print(f'{ticket} -> yes')
 else:
-    print(f'{ticket} -> "no"')
+    print(f'{ticket} -> no')
